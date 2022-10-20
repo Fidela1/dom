@@ -1,5 +1,5 @@
 
 document.getElementById("demo").innerHTML = "hello World!";
-document.getElementById("demo1").innerHTML = "hello World!";
-document.getElementById("demo2").innerHTML = "hello World!";
-document.getElementById("demo2").innerHTML = "hello";
+//to find html element by id
+const element = document.getElementById("intro");
+document.getElementById("demo").innerHTML =  element.innerHTML;
