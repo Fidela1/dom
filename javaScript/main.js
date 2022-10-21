@@ -1,5 +1,5 @@
 
-document.getElementById("demo1").innerHTML = "hello World!";
+document.getElementById("demo").innerHTML = "hello World!";
 //to find html element by id
 const element = document.getElementById("intro");
 
@@ -15,3 +15,8 @@ document.getElementById("demo").innerHTML = elements[0].innerHTML;
 
 const x = document.getElementsByClassName("intro1");
 document.getElementById("demo").innerHTML = x[0].innerHTML;
+
+//Finding HTML Elements by Query Selector
+
+const y = document.querySelector("p.intro");
+document.getElementById("demo").innerHTML = y[0].innerHTML;
