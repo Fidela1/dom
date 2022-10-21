@@ -23,13 +23,29 @@
 
 
 // changing html content
-document.getElementById("p1").innerHTML = "New text!";
+// document.getElementById("p1").innerHTML = "New text!";
 
 // changing heading
 
-const heading = document.getElementById("h");
-heading.innerHTML = "new heading";
+// const heading = document.getElementById("h");
+// heading.innerHTML = "new heading";
 
 
 // to get date
 document.write(Date());
+
+
+
+function myFunction(){
+    let x = document.getElementById("num").value;
+    
+// get value of input
+    let text;
+    if(isNaN(x) || x < 1 || x > 10){
+        text = "invalid input";
+    } 
+    else{
+        text = "input Ok";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
