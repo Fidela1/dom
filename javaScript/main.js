@@ -67,3 +67,10 @@ function checkEven(){
 document.getElementById("p1").style.color = "blue";
 document.getElementById("p1").style.fontFamily = "Arial";
 document.getElementById("p1").style.fontSize = "larger";
+
+
+document.getElementById("myBtn").addEventListener("click",displayDate);
+
+function displayDate(){
+    document.getElementById("demo2").innerHTML = Date();
+}
