@@ -49,3 +49,17 @@ function myFunction(){
     }
     document.getElementById("demo").innerHTML = text;
 }
+
+//to check if number is even
+function checkEven(){
+    let a = document.getElementById("numb").value;
+
+    let y;
+    if(a%2 === 0){
+        y = "true";
+    }
+    else{
+        y = "false";
+    }
+    document.getElementById("demo1").innerHTML = y;
+}
