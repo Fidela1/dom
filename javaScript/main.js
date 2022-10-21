@@ -63,3 +63,7 @@ function checkEven(){
     }
     document.getElementById("demo1").innerHTML = y;
 }
+
+document.getElementById("p1").style.color = "blue";
+document.getElementById("p1").style.fontFamily = "Arial";
+document.getElementById("p1").style.fontSize = "larger";
